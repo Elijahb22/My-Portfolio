@@ -1,0 +1,9 @@
+:root{
+    --primary-color:#ffffff;
+    --font-color:#000000;
+}
+header {
+padding: 20px;
+background-color:var(--primary-color);
+color:var(--font-color) ;
+}
