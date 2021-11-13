@@ -2,8 +2,20 @@
     --primary-color:#ffffff;
     --font-color:#000000;
 }
+
+body {
+    color:var(--font-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
 header {
-padding: 20px;
-background-color:var(--primary-color);
-color:var(--font-color) ;
+    padding: 20px;
+    background-color:var(--primary-color);
+    color:var(--font-color) ;
+}
+
+header h1 {
+    color: var(--font-color);
+    display: inline;
+    font-weight: bold;
+    font-size: 36px;
 }
