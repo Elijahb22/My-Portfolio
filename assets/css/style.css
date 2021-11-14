@@ -6,6 +6,7 @@
     box-sizing: border-box;
     padding: 0;
     margin:0;
+    background-color: var(--primary-color);
 }
 body {
     color:var(--font-color);
@@ -44,7 +45,11 @@ header nav ul li a {
  }
 
  p {
-    font-size: 18px;
+    font-size: 26px;
+ }
+
+ h2 {
+     font-size: 36px;
  }
 
 .hero {
@@ -53,25 +58,29 @@ header nav ul li a {
     position: relative;
 }
 
-.me-content {
-    background-color: var(--primary-color);
+.content {
     display: inline;
     text-align: center;
     width: 75%;
+    padding: 100px;
 }
 
 .about-me {
     float: left;
-    text-align: right;
     display: inline;
-    background-color: var(--primary-color);
+    padding: 50px;
     width: 25%;
-
 }
 
 .about-p {
-    display:inline-block;
+    margin-right: 25%;
+    margin-left:25%; 
+    padding-bottom: 30px;
+    padding-top:30px;
+    border: 20px solid #ffffff;
+    position: absolute; 
 }
+
 
 
 
