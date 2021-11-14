@@ -95,9 +95,18 @@ header nav ul li a {
 }
 
 .work-p img {
-    width: 15%;
-    margin: 10px 0;
+    margin-left: 25%;
+    margin-right: 25%;
     position:absolute;
+    width: 50%;
+    display:block;
+    padding: 50px;
+}
+
+.contact {
+    text-align: center;
+    width: 75%;
+    padding: 100px;
 }
 
 
