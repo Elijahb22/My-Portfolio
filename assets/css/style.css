@@ -59,7 +59,7 @@ header nav ul li a {
 }
 
 .content {
-    display: inline;
+    display: inline-block;
     text-align: center;
     width: 75%;
     padding: 100px;
@@ -77,9 +77,29 @@ header nav ul li a {
     margin-left:25%; 
     padding-bottom: 30px;
     padding-top:30px;
-    border: 20px solid #ffffff;
+    border: 15px solid #ffffff;
     position: absolute; 
 }
+
+.projects {
+    display: inline-block;
+    text-align: center;
+    width: 75%;
+    padding: 100px;
+}
+.work{
+    float: left;
+    display: inline;
+    padding: 50px;
+    width: 25%;
+}
+
+.work-p img {
+    width: 15%;
+    margin: 10px 0;
+    position:absolute;
+}
+
 
 
 
