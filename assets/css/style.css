@@ -2,14 +2,18 @@
     --primary-color:#ffffff;
     --font-color:#000000;
 }
-
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
 body {
     color:var(--font-color);
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
     padding: 20px;
-    background-color:var(--primary-color);
+    background-color:#808080;
     color:var(--font-color) ;
 }
 
@@ -34,8 +38,16 @@ header nav ul li {
     display:inline;
 }
 
-header nav ul li {
+header nav ul li a {
     margin: 0 25px;
     font-size: 25px;
     font-weight: lighter;
+}
+
+.hero {
+    background-image: url(../images/Me.jpg);
+    height: 500px;
+    position: relative;
+    background-color: #808080;
+    background-size: cover;
 }
