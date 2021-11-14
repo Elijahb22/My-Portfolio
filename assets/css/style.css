@@ -1,5 +1,5 @@
 :root{
-    --primary-color:#ffffff;
+    --primary-color:#808080;
     --font-color:#000000;
 }
 * {
@@ -13,7 +13,7 @@ body {
 }
 header {
     padding: 20px;
-    background-color:#808080;
+    background-color:var(--primary-color);
     color:var(--font-color) ;
 }
 
@@ -22,11 +22,6 @@ header h1 {
     display: inline;
     font-weight: bold;
     font-size: 36px;
-}
-
-header a {
-    text-decoration: none;
-    color:var(--font-color);
 }
 
 header nav {
@@ -43,11 +38,40 @@ header nav ul li a {
     font-size: 25px;
     font-weight: lighter;
 }
+ a {
+    color: var(--font-color);
+    text-decoration: none;
+ }
+
+ p {
+    font-size: 18px;
+ }
 
 .hero {
     background-image: url(../images/Me.jpg);
     height: 500px;
     position: relative;
-    background-color: #808080;
-    background-size: cover;
 }
+
+.me-content {
+    background-color: var(--primary-color);
+    display: inline;
+    text-align: center;
+    width: 75%;
+}
+
+.about-me {
+    float: left;
+    text-align: right;
+    display: inline;
+    background-color: var(--primary-color);
+    width: 25%;
+
+}
+
+.about-p {
+    display:inline-block;
+}
+
+
+
